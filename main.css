@@ -1,0 +1,154 @@
+body,
+html {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    /*background stuff*/
+    background: url(pics/vans.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Special Elite', 'Amatic SC', serif;
+  font-weight: 500;
+  font-size: 100%;
+  
+}
+/*list destyling*/
+li {
+  list-style-type: none;
+  margin: auto;
+  float: right;
+}
+ /*deformat hyperlinks*/
+a {
+ text-decoration: none;
+ color: black;
+}
+/*deformat button, input*/
+button, input[type="submit"], input[type="reset"] {
+    background: none;
+    border: none;
+    padding: 0! important;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+}
+/*
+===================BROKEN -- FIX===================
+
+button:focus {
+  outline:none;
+}
+*/
+
+
+/*.bgmain {
+ /* display:grid;
+  grid-template-rows:1fr;
+  grid-template-columns: 1fr;
+  background-image: ;
+  background: url(pics/mountains.jpg) no-repeat center center fixed;
+  background-size: cover;
+
+}*/
+/*nav bar*/
+.nav {
+  display: grid;
+  /*grid-template-rows: minmax(5px, 20px);
+  /*grid-template-columns: 1fr minmax(60px, 200px) 1fr minmax(60px, 200px) minmax(60px, 200px) minmax(60px, 200px) 1fr;
+  */
+  grid-template-rows: repeat(1, minmax(5px, 20px));
+  background: transparent;
+  padding-top: 8px;
+
+
+}
+.inner {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1;
+  /*color: rgb(15,15, 10);*/
+  color: blue;
+  font-weight: bold;
+}
+/*
+===================BROKEN -- FIX===================
+.navlink:hover {
+  color: white;
+}
+*/
+
+.navlink{
+  text-decoration: italic;
+}
+
+
+.two{
+  grid-column-start: 9;
+  grid-column-end: 10;
+  border-right: solid 1px rgb(46, 46, 31);
+  color: black;
+  font-weight: 300;
+
+
+  
+
+}
+
+.three{
+  grid-column-start: 10;
+  grid-column-end: 11;
+  border-right: solid 1px rgb(46, 46, 31);
+  color: black;
+  font-weight: 300;
+}
+
+.four{
+  grid-column-start: 11;
+  grid-column-end: 12;
+  color: black;
+  font-weight: 300;
+}
+/*
+====================VARIED REPEAT==========================
+ grid-template-columns: 20px repeat(6, 1fr) 20px;
+===========================================================
+*/
+
+
+
+
+.two,
+.three,
+.four {
+  
+  
+}
+
+
+
+ /*hover buttons*/
+   .navbutton:hover,
+   .navbutton:focus {
+    background: linear-gradient(#EB4421, #F26C3D);
+   }
+
+.navbutton {
+  
+  
+}
+
