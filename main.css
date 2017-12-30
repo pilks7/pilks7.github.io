@@ -1,15 +1,16 @@
-
+/*
+===================MOBILE/TABLET SCREEN===================
+*/
 @media only screen and (max-device-width : 1080px) {
   body,
   html {
       margin:0;
       padding:0;
       border:0;
-      outline:0;
       font-size:100%;
       vertical-align:baseline;
       /*background stuff*/
-      background: url(pics/vanssmall.jpg) no-repeat center center fixed; 
+      background: url(pics/vansmob.jpg) no-repeat center center fixed; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -27,14 +28,15 @@
     font-size: 100%;
     }  
 }
-
+/*
+=====================DESKTOP SCREEN=====================
+*/
 @media only screen and (min-device-width: 1081px) {
   body,
   html {
       margin:0;
       padding:0;
       border:0;
-      outline:0;
       font-size:100%;
       vertical-align:baseline;
       /*background stuff*/
@@ -45,13 +47,7 @@
       background-size: cover;
       }
 
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  body {
     font-family: 'Special Elite', 'Amatic SC', 'serif';
     font-weight: 500;
     font-size: 100%;
@@ -76,20 +72,19 @@ button, input[type="submit"], input[type="reset"] {
     padding: 0;    
     font: inherit;
     cursor: pointer;
-    outline: none;
 }
 
-/*
-===================BROKEN -- FIX===================
-*/
-button:active {
-  color: white;
-  border: none;
-}
 .navlink:hover {
-  color:white;
+  color:rgb(169,169,169);
+  outline:none;
+
 }
 
+/* ---   :visited NOT WORKING   ---;
+*/
+.navlink:active, .navlink:visited {
+  outline:none;
+}
 
 
 /*.bgmain {
@@ -110,6 +105,7 @@ button:active {
   grid-template-rows: repeat(1, minmax(5px, 20px));
   background: transparent;
   padding-top: 8px;
+  text-align: center;
 
 
 }
@@ -120,16 +116,6 @@ button:active {
   /*color: rgb(15,15, 10);*/
   color: blue;
   font-weight: bold;
-}
-/*
-===================BROKEN -- FIX===================
-.navlink:hover {
-  color: white;
-}
-*/
-
-.navlink{
-  text-decoration: italic;
 }
 
 
@@ -168,23 +154,5 @@ button:active {
 
 
 
-.two,
-.three,
-.four {
-  
-  
-}
 
-
-
- /*hover buttons*/
-   .navbutton:hover,
-   .navbutton:focus {
-    background: linear-gradient(#EB4421, #F26C3D);
-   }
-
-.navbutton {
-  
-  
-}
 
