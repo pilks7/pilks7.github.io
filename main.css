@@ -10,7 +10,7 @@
       font-size:100%;
       vertical-align:baseline;
       /*background stuff*/
-      background: url(pics/vansmob.jpg) no-repeat center center fixed; 
+      background: url(pics/vansmob.jpg) no-repeat top left fixed; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
