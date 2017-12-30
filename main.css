@@ -1,32 +1,63 @@
-body,
-html {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    /*background stuff*/
-    background: url(pics/vans.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
+
+@media only screen and (max-device-width : 768px) {
+  body,
+  html {
+      margin:0;
+      padding:0;
+      border:0;
+      outline:0;
+      font-size:100%;
+      vertical-align:baseline;
+      /*background stuff*/
+      background: url(pics/vansmob.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      }
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Special Elite', 'Amatic SC', 'serif';
+    font-weight: 400;
+    font-size: 50%;
+    }  
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Special Elite', 'Amatic SC', 'serif';
-  font-weight: 500;
-  font-size: 100%;
-  
+@media only screen and (min-device-width: 769px) {
+  body,
+  html {
+      margin:0;
+      padding:0;
+      border:0;
+      outline:0;
+      font-size:100%;
+      vertical-align:baseline;
+      /*background stuff*/
+      background: url(pics/vanssmall.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      }
+
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Special Elite', 'Amatic SC', 'serif';
+    font-weight: 500;
+    font-size: 100%;
+    }  
 }
+
 /*list destyling*/
 li {
   list-style-type: none;
