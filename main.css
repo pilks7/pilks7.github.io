@@ -11,10 +11,10 @@
       vertical-align:baseline;
       /*background stuff*/
       background: url(pics/vansmob.jpg) no-repeat top left fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      -o-background-size: auto 100%;
+      background-size: auto 100%;
       }
   body,
   h1,
@@ -61,10 +61,11 @@ li {
   float: right;
 }
  /*deformat hyperlinks*/
-a {
+a, a:hover  {
  text-decoration: none;
  color: black;
 }
+
 /*deformat button, input*/
 button, input[type="submit"], input[type="reset"] {
     background: none;
