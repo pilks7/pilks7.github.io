@@ -15,6 +15,7 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+      min-height: 100%;
       }
   body,
   h1,
@@ -83,7 +84,7 @@ button, input[type="submit"], input[type="reset"] {
 
 /* ---   :visited NOT WORKING   ---;
 */
-.navlink:active, .navlink:visited {
+a:any-link {
   outline:none;
 }
 
@@ -101,33 +102,36 @@ button, input[type="submit"], input[type="reset"] {
 .nav {
   display: grid;
   /*grid-template-rows: minmax(5px, 20px);
-  /*grid-template-columns: 1fr minmax(60px, 200px) 1fr minmax(60px, 200px) minmax(60px, 200px) minmax(60px, 200px) 1fr;
+  grid-template-columns: 1fr minmax(60px, 200px) 1fr minmax(60px, 200px) minmax(60px, 200px) minmax(60px, 200px) 1fr;
   */
   grid-template-rows: repeat(1, minmax(5px, 20px));
   background: transparent;
   padding-top: 8px;
   text-align: center;
-  vertical-align: center;
+
+
+  /*color: rgb(15,15, 10);*/
+  align-items: center;
+  justify-items: stretch;
+  
 
 
 }
 .inner {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 1;
-  /*color: rgb(15,15, 10);*/
-  color: blue;
-  font-weight: bold;
-  align-items: center;
+
 }
 
 
 .two{
-  grid-column-start: 8;
+  grid-column-start: 9;
   grid-column-end: 10;
-  border-right: solid 1px rgb(46, 46, 31);
+  border-right: solid 1px rgb(46, 46, 31);*/
   color: black;
   font-weight: 300;  
+  
+  
 
 }
 
