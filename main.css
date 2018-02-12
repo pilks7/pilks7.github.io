@@ -98,7 +98,7 @@ img, embed, object, video {
   */
   grid-template-rows: repeat(1, minmax(5px, 20px));
   background: transparent;
-  padding-top: 25px;
+  padding-top: 12px;
   text-align: center;
 
 
