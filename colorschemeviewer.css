@@ -1,0 +1,50 @@
+
+/*
+=================Primary colors=================== 
+*/
+
+.color-p { background-color: rgba( 3,185,185,1)   }  /*Main */
+.color-1 { background-color: rgba( 136,213,213,1) }
+.color-2 { background-color: rgba( 60,192,192,1)  }
+.color-3 { background-color: rgba( 0,119,119,1)   }
+.color-4 { background-color: rgba( 0, 84, 84,1)   }
+
+/* 
+================Complementary colors==================== 
+*/
+
+.comp-p { background-color: rgba( 255,118,  4,1) } /*Main*/
+.comp-1 { background-color: rgba( 255,204,162,1) }
+.comp-2 { background-color: rgba( 255,159, 79,1) }
+.comp-3 { background-color: rgba( 199, 90,  0,1) }
+.comp-4 { background-color: rgba( 140, 63,  0,1) }
+
+html,
+body {
+	display: grid;
+	grid-template-rows: ;
+	grid-template-columns: ;
+
+}
+
+.main {
+	display: grid;
+	grid-template-rows: repeat(10, 60px);
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 3px ;
+	grid-gap: 3px;
+	
+}
+
+.col1{
+	display: grid;
+	grid-template-rows: repeat(5, 60px);
+
+}
+
+.col2{ 	
+	display: grid;
+	grid-template-rows: repeat(5, 60px);
+
+}
+
