@@ -27,7 +27,7 @@
   h6 {
     font-family: 'Special Elite', 'Amatic SC', 'serif';
     font-weight: 400;
-    font-size: 50%;
+    font-size: 100%;
     }  
 
 
@@ -38,9 +38,13 @@ li {
   float: right;
 }
  /*deformat hyperlinks*/
-a:any-link {
+a, :any-link, :hover, :visited {
   outline:none;
   text-decoration: none;
+
+}
+
+a {
   color: black;
 }
 
@@ -98,7 +102,7 @@ img, embed, object, video {
   */
   grid-template-rows: repeat(1, minmax(5px, 20px));
   background: transparent;
-  padding-top: 12px;
+  padding-top: 5px;
   text-align: center;
 
 
@@ -119,10 +123,10 @@ img, embed, object, video {
 .two{
   grid-column-start: 1;
   /*grid-column-end: 3;*/
-  border-right: solid 1px rgb(46, 46, 31);*/
-  color: black;
+  border-right: solid 1px rgb(46, 46, 31);
   font-weight: 300;  
   padding-right: 5px;
+  color: black;
   
 }
 
