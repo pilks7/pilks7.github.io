@@ -1,0 +1,297 @@
+/*
+===================MOBILE/TABLET SCREEN===================
+*/
+@media only screen and (max-device-width : 768px) {
+  body.home,
+  html.home {
+      margin:0;
+      padding:0;
+      border:0;
+      font-size:100%;
+      vertical-align:baseline;
+      /*background stuff*/
+      background: url(pics/vansmob.jpg) no-repeat top left fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      min-height: 100%;
+      }
+
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Special Elite', 'Amatic SC', 'serif';
+    font-weight: 400;
+    font-size: 50%;
+    }  
+
+
+/*list destyling*/
+li {
+  list-style-type: none;
+  margin: auto;
+  float: right;
+}
+ /*deformat hyperlinks*/
+a:any-link {
+  outline:none;
+  text-decoration: none;
+  color: black;
+}
+
+
+/*deformat button, input*/
+button, input[type="submit"], input[type="reset"] {
+    background: none;
+    border: none;
+    padding: 0;    
+    font: inherit;
+    cursor: pointer;
+}
+/*Stops these 4 from overflowing their container elements (and thus 
+potentially off screen) */
+img, embed, object, video {
+  max-width: 100%
+}
+
+/*
+====================Grey/green color scheme================
+*/
+.color-0 { color: rgba( 87, 89, 82,1) }  /* Main Primary color */
+.color-1 { color: rgba(114,120, 99,1) }
+.color-2 { color: rgba( 74, 76, 68,1) }
+.color-3 { color: rgba( 60, 62, 55,1) }
+.color-4 { color: rgba( 44, 45, 39,1) }
+
+.comp-0 { color: rgba( 72, 66, 70,1) } /* Main Complement color */
+.comp-1 { color: rgba( 97, 80, 92,1) }
+.comp-2 { color: rgba( 61, 55, 59,1) }
+.comp-3 { color: rgba( 50, 44, 48,1) }
+.comp-4 { color: rgba( 37, 31, 35,1) }
+
+.navlink:hover {
+  color:rgb(169,169,169);
+
+}
+
+
+
+/*.bgmain {
+ /* display:grid;
+  grid-template-rows:1fr;
+  grid-template-columns: 1fr;
+  background-image: ;
+  background: url(pics/mountains.jpg) no-repeat center center fixed;
+  background-size: cover;
+
+}*/
+/*nav bar*/
+.nav {
+  display: grid;
+  /*grid-template-rows: minmax(5px, 20px);
+  grid-template-columns: 1fr minmax(60px, 200px) 1fr minmax(60px, 200px) minmax(60px, 200px) minmax(60px, 200px) 1fr;
+  */
+  grid-template-rows: repeat(1, minmax(5px, 20px));
+  background: transparent;
+  padding-top: 25px;
+  text-align: center;
+
+
+  /*color: rgb(15,15, 10);*/
+  align-items: center;
+  justify-items: stretch;
+  
+
+
+}
+.inner {
+  display: grid;
+  grid-template-columns: 40%, repeat(4, 1fr);
+
+}
+
+
+.two{
+  grid-column-start: 1;
+  /*grid-column-end: 3;*/
+  border-right: solid 1px rgb(46, 46, 31);*/
+  color: black;
+  font-weight: 300;  
+  padding-right: 5px;
+  
+}
+
+.three{
+  grid-column-start: 3;
+  /*grid-column-end: 4;*/
+  border-right: solid 1px rgb(46, 46, 31);
+  color: black;
+  font-weight: 300;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.four{
+  grid-column-start: 4;
+  /*grid-column-end: 5;*/
+  color: black;
+  font-weight: 300;
+  padding-left: 5px;
+}
+
+}
+/*
+=====================DESKTOP SCREEN=======================================
+*/
+@media only screen and (min-device-width: 769px) {
+  body,
+  html {
+      margin:0;
+      padding:0;
+      border:0;
+      font-size:100%;
+      vertical-align:baseline;
+      /*background stuff*/
+      background: url(pics/vanssmall.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    font-family: 'Special Elite', 'Amatic SC', 'serif';
+    font-weight: 500;
+    font-size: 100%;
+    }  
+}
+
+
+
+/*list destyling*/
+li {
+  list-style-type: none;
+  margin: auto;
+  float: right;
+}
+ /*deformat hyperlinks*/
+a:any-link {
+  outline:none;
+  text-decoration: none;
+  color: black;
+}
+
+
+/*deformat button, input*/
+button, input[type="submit"], input[type="reset"] {
+    background: none;
+    border: none;
+    padding: 0;    
+    font: inherit;
+    cursor: pointer;
+}
+/*Stops these 4 from overflowing their container elements (and thus 
+potentially off screen) */
+img, embed, object, video {
+  max-width: 100%
+}
+
+/*
+====================Grey/green color scheme================
+*/
+.color-0 { color: rgba( 87, 89, 82,1) }  /* Main Primary color */
+.color-1 { color: rgba(114,120, 99,1) }
+.color-2 { color: rgba( 74, 76, 68,1) }
+.color-3 { color: rgba( 60, 62, 55,1) }
+.color-4 { color: rgba( 44, 45, 39,1) }
+
+.comp-0 { color: rgba( 72, 66, 70,1) } /* Main Complement color */
+.comp-1 { color: rgba( 97, 80, 92,1) }
+.comp-2 { color: rgba( 61, 55, 59,1) }
+.comp-3 { color: rgba( 50, 44, 48,1) }
+.comp-4 { color: rgba( 37, 31, 35,1) }
+
+.navlink:hover {
+  color:rgb(169,169,169);
+
+}
+
+
+
+/*.bgmain {
+ /* display:grid;
+  grid-template-rows:1fr;
+  grid-template-columns: 1fr;
+  background-image: ;
+  background: url(pics/mountains.jpg) no-repeat center center fixed;
+  background-size: cover;
+
+}*/
+/*nav bar*/
+.nav {
+  display: grid;
+  /*grid-template-rows: minmax(5px, 20px);
+  grid-template-columns: 1fr minmax(60px, 200px) 1fr minmax(60px, 200px) minmax(60px, 200px) minmax(60px, 200px) 1fr;
+  */
+  grid-template-rows: repeat(1, minmax(5px, 20px));
+  background: transparent;
+  padding-top: 25px;
+  text-align: center;
+
+
+  /*color: rgb(15,15, 10);*/
+  align-items: center;
+  justify-items: stretch;
+  
+
+
+}
+.inner {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+}
+
+
+.two{
+  grid-column-start: 9;
+  grid-column-end: 10;
+  border-right: solid 1px rgb(46, 46, 31);*/
+  color: black;
+  font-weight: 300;  
+  
+  
+
+}
+
+
+
+.three{
+  grid-column-start: 10;
+  grid-column-end: 11;
+  border-right: solid 1px rgb(46, 46, 31);
+  color: black;
+  font-weight: 300;
+}
+
+.four{
+  grid-column-start: 11;
+  grid-column-end: 12;
+  color: black;
+  font-weight: 300;
+}
+
+}
+/*
+====================VARIED REPEAT==========================
+ grid-template-columns: 20px repeat(6, 1fr) 20px;
+===========================================================
+*/
+
+
+
+
+
+
