@@ -49,6 +49,11 @@ a {
   color: black;
 }
 
+.navlink:hover {
+  color:rgb(169,169,169);
+
+}
+
 
 
 /*deformat button, input*/
@@ -68,7 +73,7 @@ img, embed, object, video {
 /*
 ====================Grey/green color scheme================
 */
-.color-0 { color: rgba( 87, 89, 82,1) }  /* Main Primary color */
+.color-0 { color: rgba( 87, 89, 82,1) }   Main Primary color 
 .color-1 { color: rgba(114,120, 99,1) }
 .color-2 { color: rgba( 74, 76, 68,1) }
 .color-3 { color: rgba( 60, 62, 55,1) }
@@ -80,10 +85,7 @@ img, embed, object, video {
 .comp-3 { color: rgba( 50, 44, 48,1) }
 .comp-4 { color: rgba( 37, 31, 35,1) }
 
-.navlink:hover {
-  color:rgb(169,169,169);
 
-}
 
 
 /*=========================NAV BAR================================*/
@@ -91,7 +93,7 @@ img, embed, object, video {
   display: grid;
   grid-template-rows: repeat(1, minmax(5px, 20px));
   background: transparent;
-  padding-top: 5px;
+  padding-top: 9px;
   text-align: center;
   align-items: center;
   justify-items: stretch;
@@ -191,37 +193,12 @@ img, embed, object, video {
   max-width: 100%
 }
 
-/*
-====================Grey/green color scheme================
-*/
-.color-0 { color: rgba( 87, 89, 82,1) }  /* Main Primary color */
-.color-1 { color: rgba(114,120, 99,1) }
-.color-2 { color: rgba( 74, 76, 68,1) }
-.color-3 { color: rgba( 60, 62, 55,1) }
-.color-4 { color: rgba( 44, 45, 39,1) }
-
-.comp-0 { color: rgba( 72, 66, 70,1) } /* Main Complement color */
-.comp-1 { color: rgba( 97, 80, 92,1) }
-.comp-2 { color: rgba( 61, 55, 59,1) }
-.comp-3 { color: rgba( 50, 44, 48,1) }
-.comp-4 { color: rgba( 37, 31, 35,1) }
 
 .navlink:hover {
   color:rgb(169,169,169);
 
 }
 
-
-
-/*.bgmain {
- /* display:grid;
-  grid-template-rows:1fr;
-  grid-template-columns: 1fr;
-  background-image: ;
-  background: url(pics/mountains.jpg) no-repeat center center fixed;
-  background-size: cover;
-
-}*/
 /*nav bar*/
 .nav {
   display: grid;
@@ -230,7 +207,7 @@ img, embed, object, video {
   */
   grid-template-rows: repeat(1, minmax(5px, 20px));
   background: transparent;
-  padding-top: 25px;
+  padding-top: 20px;
   text-align: center;
 
 
