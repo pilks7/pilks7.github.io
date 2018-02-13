@@ -38,7 +38,8 @@ li {
   float: right;
 }
  /*deformat hyperlinks*/
-a, :any-link, :hover, :visited {
+a, a:hover, a:visited {
+  
   outline:none;
   text-decoration: none;
 
@@ -47,6 +48,7 @@ a, :any-link, :hover, :visited {
 a {
   color: black;
 }
+
 
 
 /*deformat button, input*/
@@ -84,35 +86,18 @@ img, embed, object, video {
 }
 
 
-
-/*.bgmain {
- /* display:grid;
-  grid-template-rows:1fr;
-  grid-template-columns: 1fr;
-  background-image: ;
-  background: url(pics/mountains.jpg) no-repeat center center fixed;
-  background-size: cover;
-
-}*/
-/*nav bar*/
+/*=========================NAV BAR================================*/
 .nav {
   display: grid;
-  /*grid-template-rows: minmax(5px, 20px);
-  grid-template-columns: 1fr minmax(60px, 200px) 1fr minmax(60px, 200px) minmax(60px, 200px) minmax(60px, 200px) 1fr;
-  */
   grid-template-rows: repeat(1, minmax(5px, 20px));
   background: transparent;
   padding-top: 5px;
   text-align: center;
-
-
-  /*color: rgb(15,15, 10);*/
   align-items: center;
   justify-items: stretch;
   
-
-
 }
+
 .inner {
   display: grid;
   grid-template-columns: 40%, repeat(4, 1fr);
@@ -120,7 +105,7 @@ img, embed, object, video {
 }
 
 
-.two{
+.two {
   grid-column-start: 1;
   /*grid-column-end: 3;*/
   border-right: solid 1px rgb(46, 46, 31);
@@ -130,7 +115,7 @@ img, embed, object, video {
   
 }
 
-.three{
+.three {
   grid-column-start: 3;
   /*grid-column-end: 4;*/
   border-right: solid 1px rgb(46, 46, 31);
@@ -140,7 +125,7 @@ img, embed, object, video {
   padding-right: 5px;
 }
 
-.four{
+.four {
   grid-column-start: 4;
   /*grid-column-end: 5;*/
   color: black;
@@ -172,6 +157,17 @@ img, embed, object, video {
     }  
 }
 
+ /*deformat hyperlinks*/
+a, a:hover, a:visited {
+  
+  outline:none;
+  text-decoration: none;
+
+}
+
+a {
+  color: black;
+}
 
 
 /*list destyling*/
@@ -180,13 +176,6 @@ li {
   margin: auto;
   float: right;
 }
- /*deformat hyperlinks*/
-a:any-link {
-  outline:none;
-  text-decoration: none;
-  color: black;
-}
-
 
 /*deformat button, input*/
 button, input[type="submit"], input[type="reset"] {
@@ -293,7 +282,6 @@ img, embed, object, video {
  grid-template-columns: 20px repeat(6, 1fr) 20px;
 ===========================================================
 */
-
 
 
 
