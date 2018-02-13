@@ -75,9 +75,10 @@ body, html {
 </div>
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container " id="home">
-    <div class="w3-display-left  w3-opacity-min w3-hide-small" style="white-space:nowrap; padding: 0px 0px 70px 70px; position: sticky">
-      <!--large screens-->
+<div class="bgimg-1 w3-display-container" id="home" style="z-index: -1">
+  <!--large screens-->
+    <div class="w3-display-left  w3-opacity-min w3-hide-small" style="white-space:nowrap; padding: 0px 0px 70px 70px; position: fixed; z-index: 0">
+      
       <span class="w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity w3-hide-small">HELLO, I'M. . .</span>
       </div>
       <!--small screens-->
@@ -95,7 +96,7 @@ body, html {
 
 
 <!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
+<div style="z-index: +1; background-color: white" class="w3-content w3-container w3-padding-64" id="about" >
   <div class="w3-padding-large w3-black w3-medium w3-wide"></div>
   <h3 class="w3-center">ABOUT ME</h3>
   <p class="w3-center"><em>Hi, I'm Luke Pilkington,</em></p>
