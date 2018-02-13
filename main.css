@@ -1,7 +1,7 @@
 /*
 ===================MOBILE/TABLET SCREEN===================
 */
-@media only screen and (max-device-width : 768px) {
+@media only screen and (max-device-width : 1024px) {
   body.home,
   html.home {
       margin:0;
@@ -136,10 +136,11 @@ img, embed, object, video {
 }
 
 }
-/*
+/*========================================================================
 =====================DESKTOP SCREEN=======================================
+========================================================================
 */
-@media only screen and (min-device-width: 769px) {
+@media only screen and (min-device-width: 1025px) {
   body,
   html {
       margin:0;
