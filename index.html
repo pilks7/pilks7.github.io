@@ -74,7 +74,8 @@ body, html {
 <body>
 
 <!-- Navbar (sit on top) -->
-  <div class="w3-bar" id="navbar" style="background:rgba(0, 0, 0, 0.1);">
+<div class="w3-display-container">
+  <div class="w3-bar w3-hide 3-animate-top" style="top:0; position:fixed; background-color: none ;width:100%;z-index:3" id="navbar">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
@@ -84,6 +85,7 @@ body, html {
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"> CONTACT</a>
     </a>
   </div>
+
 
   <!-- Navbar on small screens -->
   <div id="mob_navbar" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top">
@@ -96,9 +98,9 @@ body, html {
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container" id="home" style="z-index: -1">
   <!--large screens-->
-    <div class="w3-display-left  w3-opacity-min w3-hide-small" style="white-space:nowrap; padding: 0px 0px 0px 85px; position: fixed; z-index: 0; bottom: 70%">
+    <div class="w3-display-left w3-opacity-min w3-hide-small" >
       
-      <span class="w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity w3-hide-small">HELLO, I'M. . .</span>
+      <span class="w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity w3-hide-small" style="z-index:-5">HELLO, I'M. . .</span>
     </div>
       <!--small screens-->
   <div class="w3-display-left  w3-opacity-min w3-hide-medium w3-hide-large" style="white-space:nowrap; top: 45%">
@@ -157,15 +159,15 @@ body, html {
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
   </div>
-  <p class="w3-wide"><i class="fa-brands fa-python"></i>Python</p>
+  <p><i class="fa-brands fa-python"></i>Python</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:70%">70%</div>
   </div>
-  <p class="w3-wide"><i class="fa-solid fa-code"></i>C</p>
+  <p><i class="fa-solid fa-code"></i>C</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:20%">20%</div>
   </div>
-      <p class="w3-wide"><i class="fa-solid fa-code"></i>something else</p>
+      <p><i class="fa-solid fa-code"></i>something else</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:20%">20%</div>
   </div>
